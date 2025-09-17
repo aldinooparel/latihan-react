@@ -13,16 +13,20 @@ export default function Login() {
                         <input
                             type="email"
                             placeholder="Your email"
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-400"
+                            className="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-1 focus:ring-gray-400 "
                         />
                     </div>
                     <Button className={"w-full"} variantButton={"dark"}>send me the magic link</Button>
+                    <Button className={"w-full mt-3"}>Sign in using password</Button>
                     <div className="w-full mt-6 relative flex items-center justify-center text-sm text-gray-500">
                         <div className="h-[1px] w-full bg-gray-400"></div>
                         <span className="bg-white px-2">or</span>
                         <div className="h-[1px] w-full bg-gray-400"></div>
                     </div>
-                    <Button className={"w-full"} variantButton={"light"}>Single-sign-on (SSO)</Button>
+                    <Button className={"w-full mt-3"} variantButton={"light"}>Single-sign-on (SSO)</Button>
+                    <p className="text-xs mt-6 text-balance">
+                        You acknowledge that you read, and agree, to our <a className="underline" href="#">Terms of service</a> and our <a className="underline" href="#">Privacy Policy</a>
+                    </p>
                 </div>
             </div>
         </div >
