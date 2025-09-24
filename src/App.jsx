@@ -1,11 +1,12 @@
 import Button from './components/Button'
+import Navbar from './components/Navbar'
 
 export default function App() {
   return (
     <div>
-      <Button>send me the magic link</Button>
+      <Navbar />
 
-      <h1>ini home page</h1>
+
     </div>
   )
 }
