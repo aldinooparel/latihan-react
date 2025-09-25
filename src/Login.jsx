@@ -16,7 +16,7 @@ export default function Login() {
                             className="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-1 focus:ring-gray-400 "
                         />
                     </div>
-                    <Button className={"w-full"} variantButton={"dark"}>send me the magic link</Button>
+                    <Button className={"w-full"} variantButton={"dark"}>Send Me the Magic Link</Button>
                     <Button className={"w-full mt-3"}>Sign in using password</Button>
                     <div className="w-full mt-6 relative flex items-center justify-center text-sm text-gray-500">
                         <div className="h-[1px] w-full bg-gray-400"></div>

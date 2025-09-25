@@ -45,8 +45,8 @@ export default function Navbar() {
                     })
                     }
                 </ul>
-                <div className="flex justify-center text-nowrap">
-                    <Button className={"w-full"} variantButton={"base"}>Login</Button>
+                <div className="flex justify-center text-nowrap gap-2">
+                    <Button className={"w-full"} variantButton={"ghostGreen"}>Login</Button>
                     <Button className={"w-full"} variantButton={"primary"}>Sign Up</Button>
                 </div>
             </div>
